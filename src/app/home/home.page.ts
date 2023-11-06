@@ -11,6 +11,10 @@ export class HomePage {
       console.log(ev.touches);
     });
   }
+
+  public slideChanged(ev: any): void {
+    console.log('Slide changed', ev);
+  }
 }
 
 

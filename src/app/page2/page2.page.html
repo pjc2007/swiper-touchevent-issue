@@ -1,15 +1,14 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Home (Swiper)
+      Page 2
     </ion-title>
   </ion-toolbar>
-  <ion-button routerLink="/page2">Page2</ion-button>
 </ion-header>
 
+<ion-button routerLink="/home">Home</ion-button>
 <ion-content [fullscreen]="true">  
-  <swiper-container [pagination]="true" events-prefix="swiper-" (slidechange)="slideChanged($event)">
-    <swiper-slide>
+  <div id="outer-container">
       <div id="input-container">
         <ion-input></ion-input>
         <ion-input></ion-input>
@@ -26,9 +25,6 @@
         <ion-input></ion-input>
         <ion-input></ion-input>
       </div>
-    </swiper-slide>
-    <swiper-slide>Slide 2</swiper-slide>
-    <swiper-slide>Slide 3</swiper-slide>
-  </swiper-container>
+    </div>
   
 </ion-content>

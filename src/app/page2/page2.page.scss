@@ -1,0 +1,25 @@
+#outer-container {
+  height: 100%;
+  width: 100%;
+  border: 3px solid pink
+}
+
+ionic-content {
+  border: blue 1px solid;
+  overflow-y: hidden;
+  background-color: white;
+}
+
+ion-input {
+  margin: 5px;
+  background-color: aliceblue;
+}
+
+#input-container {
+  overflow-y: scroll;
+  padding: 10px;
+  border: green 2px solid;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 100%;  
+}
